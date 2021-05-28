@@ -81,5 +81,82 @@
 //     }
 // }
 
+// function hello(){
+//     console.log('Привет');
+// }
+// hello()
+
+// function num(){
+//     return 7;
+// }
+
+// let res = num();
+// console.log(num);
+
+
+// function sum(a, b) {
+//     return a * b;
+// }
+
+// console.log(sum(3, 5));
+// console.log(sum(3, 8));
+// console.log(sum(6, 10));
+
+// let b = 3
+// function pow() {
+//     let a = 2;
+//     console.log(2**3);
+// }
+
+// let res = pow();
+
+
+// let num = 12;
+
+// for(let i = 0; i <= num; i++){
+//  console.log(i);
+// }
+
+// let num = 1.4999;
+
+// let numRound = Math.round(num);
+// console.log(numRound);
+
+
+// for(let i = 1; i <= 10; i++) {
+//     console.log(Math.random());
+// }
+
+alert('Привет! Добро пожаловать В "Игромат" версии 0,1 ')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
