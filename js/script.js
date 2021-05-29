@@ -127,36 +127,124 @@
 //     console.log(Math.random());
 // }
 
-alert('Привет! Добро пожаловать В "Игромат" версии 0,1 ')
+// confirm('что тебе нужно ');
+// alert('Привет! Добро пожаловать В "Игромат" версии 0,1 ')
+
+// let myName = alert('Привет вы тут');
+// console.log(myName);
+
+
+// let typeOfName = typeof(myName);
+// console.log(typeOfName);
 
 
 
+// let sum;
+// sum = 2 ** 5;
+// console.log(sum)
+
+
+// alert('Привет!');
+
+// let yourName = prompt('Как тебя зовут');
+// let nameFriend = prompt('Как зовут твоего друга?');
+// let quantity = +prompt('Сколько у тебя яблок?');
+// let quantityFriend = +prompt('Сколько яблок у твоего друга?');
+// let sumApple = (quantity + quantityFriend);
+
+// let answer = (`Значит ${yourName} и ${nameFriend} имеют ${sumApple} яблок!`);
+// alert(answer);
+
+// let count = 10; 
+// do{
+// 	console.log(count);
+// 	count = count - 1;
+// }
+// while (count)
+// console.log('444');
+
+
+// function sum(a, b) {
+//     return a + b;
+// }
+
+// let res = sum(3, 5);
+// console.log(res);
+
+// Создайте функцию которая выводит в консоль "Привет"
+// function num(){
+//     console.log('Привет');
+ 
+// }
+// num();
+
+// Создайте функцию которая возвращает число 7
+// function num(){
+//     return 7;
+// }
+// let res = num();
+// console.log(res);
+
+
+//Создайте функцию которая
+// умножает 2 числа, переданных ей как параметры
+// function num(a, b){
+//     return a * b;
+// }
+// let res = num(10, 5);
+// console.log(res);
+
+//Создайте функцию pow(2, 3) которая возводит первый аргумент в степень числа переданного вторым аргументом. В примере нужно 2 возвести в степень 3
+// let a = 2;
+// let b = 3
+// function pow(a, b){
+//     return a ** b;
+// }
+
+// let res = pow(2, 3);
+// console.log(res);
 
 
 
+// runApp();
+
+// function runApp() {
+//     alert('Привет добро пожаловать в "Игромат" версии 0,1');
+//     let func = chooseFunction();
+//     startFunction(func);
+//     alert('Пока');
+// }
+
+// function chooseFunction(){
+
+// }
+
+// function startFunction(){
+
+// }
+
+// let a = 34;
+// let b =10;
+// let c ="строка!";
+
+// let resA = a + 2;
+// console.log(resA);
+
+// let resB = b + 5;
+// console.log(resB);
+
+// let resC = 'Новая ' + c;
+// console.log(resC);
 
 
+// let a = 34;
+// let b = 20;
+// let c = 'Новая';
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// a = a + 2; // = 36
+// b = b - 5; // = 15
+// c = c + " строка!"; //= "Новая строка"
+// console.log(a);
+// console.log(b);
+// console.log(c);
 
