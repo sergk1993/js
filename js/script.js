@@ -169,3 +169,89 @@
 // let a = 2;
 
 // let x = 1 + (a *= 2);
+
+// 5 > 4 //true
+// "ананас" > "яблоко" //false
+// "2" > "12" //true не понял как, сравнивает с первым числом то тру
+// undefined == null// true
+// undefined === null//false
+// null == "\n0\n"// false (мой ответ не верный )
+// null === +"\n0\n"//false (мой ответ не верный )
+
+// let year = prompt('Год');
+//     if (year < 2015) {
+//         alert('Слишком мало');
+//     } else if(year > 2015){
+//         alert('Слишком много');
+//     } else{
+//         alert('Верно');
+//     }
+
+// let age = prompt('Возраст?', 18);
+
+// if (age < 3) {
+//     message = 'Здравствуй, малыш!';
+//   } else if (age < 18) {
+//     message = 'Привет!';
+//   } else if (age < 100) {
+//     message = 'Здравствуйте!';
+//   } else {
+//     message = 'Какой необычный возраст!';
+//   }
+
+//   alert( message );
+
+// let nameFirm = prompt('Какое «официальное» название JavaScript?');
+//     if (nameFirm == 'ECMAScript') {
+//         alert('Верно!');    
+//     } else {
+//         alert('Не знаете? ECMAScript!');
+//     }
+
+// let num = prompt('Введите число');
+//     if (num > 0){
+//         alert(1);
+//     } else if (num < 0) {
+//         alert(-1);
+//     } else{
+//         alert(0);
+//     }
+
+// let message = (login == 'Сотрудник') ? 'Привет' :
+//   (login == 'Директор') ? 'Здравствуйте' :
+//   (login == '') ? 'Нет логина' :
+//   '';
+
+// if (-1 || 0) alert( 'first' );//-1
+// if (-1 && 0) alert( 'second' );//0
+// if (null || -1 && 1) alert( 'third' );//-1
+
+
+// let adminName = prompt('Кто там?');
+
+// if (adminName == 'admin') {
+
+//     let pass = prompt('Пароль', '');
+
+//     if (pass == 'Я главный'){
+//         alert('Здравствуйте');
+//     } else if (pass == '' || pass == null) { 
+//         alert('Отменено');
+//     } else {
+//         alert('Неверный пароль');
+//     }
+
+// } else if ( adminName == '' || adminName == null) {
+//     alert('Отменено');
+// } else {
+//     alert('Я вас не знаю');
+// }
+     
+// let i = 0;
+
+// for (i = 0; i < 3; i++) { // используем существующую переменную
+//   alert(i); // 0, 1, 2
+// }
+
+// alert(i);
+
