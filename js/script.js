@@ -1,250 +1,171 @@
-// alert('Привет!');
-// let one = prompt('Как тебя зовут?');
-// let two = prompt('Как зовут твоего друга?');
-// let three = +prompt('Сколько у тебя яблок?');
-// let four = +prompt('Сколько яблок у твоего друга?');
-// let multiplay = three + four
-// // alert(`Значит ${one} и ${two} имеют ${three + four} ` );
-// // let answer = 'Значит ' + one + ' и ' + two + ' имеют ' + multiplay + ' яблок!';
-// let answer = `Значит ${one} и ${two} имеют ${multiplay} яблок!`
-// alert(answer);    
+// let age = 28;
+// console.log(age);
 
-
-// let serg = ('привет');
-// serg = 'что тебе надо '
-// alert(serg);
-
-// let cat = ('7')
-// alert(`Количество жизней у кошки ${cat}`)
+// let age = 28;
+// age = 29;
+// console.log(age);
 
 // let cat = 'Sam'; 
 // let dog = cat; 
-// alert(cat); // ??? sam
-// alert(dog); // ??? sam
+// alert(cat); //  Sam  
+// alert(dog); //  Sam  
 // cat = 'Murzik'; 
-// alert(cat); // ??? 
-// alert(dog); // ??? 
+// alert(cat); // Murzik
+// alert(dog); // Sam
 
-// console.log(123);
-// console.log('123');
+// console.log(typeof('')) //string
+// console.log(typeof(0)) // number
+// console.log(typeof(123)) // number
+// console.log(typeof('123')) // string
+// console.log(typeof(typeof(777))) // 
 
-// let question = prompt('Введите вопрос')
-// let name = prompt(question);
+// console.log(456545654456545654564645456545654564645456545654564645456545654564645456545654564645564645);
 
+// let hello = 'hello';
+// confirm(hello);
+// console.log(typeof(hello));
 
-// let question = prompt('Введите вопрос')
-// console.log(confirm(`Строка ${question}`));
-// let name = prompt(question);
+// let yourGender = prompt('Кто ты');
+// console.log(yourGender);
 
-// const result = 999 ** 999;
-// console.log(result);
+// console.log(prompt('Кто ты?'),confirm('Привет'));
 
-// console.log('1' && '2' || '3');
-// console.log(2 * 3 >= 9 / 2 || 4 % 0 && 12 == 3 * 4 || null);
+// let sum = 999 * 999;
+// console.log(sum);
 
-// let num = 5;
-// // num = 10;
-// if (num == 5)
-//  {console.log('Хай!')
-// } else {
-//     console.log('нет')
-// }
+// let sum = 999 ** 99;
+// console.log(sum);
 
+// let sum = 999 ** 999;
+// console.log(sum);
 
+// let sum = 0.1 + 0.4;
+// console.log(sum);
 
-// let ears = prompt('Введите число');
-// switch (ears) {
-//     case '1':
-//         alert( '7а"' );
-//         console.log('7a');
-//         break;
-//         case 'света леша':
-//             alert( '7б"' );
-//             break;
-//   default:
-//     alert( '-1' );
-//     console.log('-1');
-// }
+// let sum = 0.1 + 0.2;
+// console.log(sum);
 
+// '4' + 5 // 45
+// '4' - 5 // -1
+// 5 + '4' // 54
+// 5 - '4' // 1
+// 8 * '4' // 32
+// 8 / '4' // 2
 
-// for (count = 10; count; count = count -1){
-//     console.log(count);
-// }
+// 'пп' + 2 + 3 //пп23
+// '' + 2 + 3 // 23
+// 2 + 3 + 'пп' //5пп
+// '' - 3 + 2 // -1 как не очень понял
+// '  3  ' + 2 //  3  2
+// '  3  ' - 2 //  1
 
-// for (let i = 0; i <= 10; i++) {
-//     console.log(i);
-// }
+// NaN + 2 // nan
+// NaN + NaN // nan
+// NaN - NaN //nan
+// null + 2 // 2
+// null + null //0
+// null - null //0
+// undefined + 2 //NaN
+// undefined + undefined //nan
+// undefined - undefined //nan
 
-// for (let i = 0; i <= 20; i++){
-//     if(i % 2 == 0){
-//         console.log(i)
-//     }
-// }
+// ' \n \t' - 2 // 
 
-// function hello(){
-//     console.log('Привет');
-// }
-// hello()
-
-// function num(){
-//     return 7;
-// }
-
-// let res = num();
-// console.log(num);
-
-
-// function sum(a, b) {
-//     return a * b;
-// }
-
-// console.log(sum(3, 5));
-// console.log(sum(3, 8));
-// console.log(sum(6, 10));
-
-// let b = 3
-// function pow() {
-//     let a = 2;
-//     console.log(2**3);
-// }
-
-// let res = pow();
-
-
-// let num = 12;
-
-// for(let i = 0; i <= num; i++){
-//  console.log(i);
-// }
-
-// let num = 1.4999;
-
-// let numRound = Math.round(num);
-// console.log(numRound);
-
-
-// for(let i = 1; i <= 10; i++) {
-//     console.log(Math.random());
-// }
-
-// confirm('что тебе нужно ');
-// alert('Привет! Добро пожаловать В "Игромат" версии 0,1 ')
-
-// let myName = alert('Привет вы тут');
-// console.log(myName);
-
-
-// let typeOfName = typeof(myName);
-// console.log(typeOfName);
-
-
-
-// let sum;
-// sum = 2 ** 5;
-// console.log(sum)
-
-
-// alert('Привет!');
-
+// alert ('Привет');
 // let yourName = prompt('Как тебя зовут');
 // let nameFriend = prompt('Как зовут твоего друга?');
-// let quantity = +prompt('Сколько у тебя яблок?');
-// let quantityFriend = +prompt('Сколько яблок у твоего друга?');
-// let sumApple = (quantity + quantityFriend);
+// let apple = +prompt('Сколько у тебя яблок');
+// let appleFriend = +prompt('А сколько яблок у твоего друга?');
+// let sumApple = (apple + appleFriend);
 
-// let answer = (`Значит ${yourName} и ${nameFriend} имеют ${sumApple} яблок!`);
-// alert(answer);
-
-// let count = 10; 
-// do{
-// 	console.log(count);
-// 	count = count - 1;
-// }
-// while (count)
-// console.log('444');
+// let res = alert(`Значит ${yourName} и ${nameFriend} имеют ${sumApple} яблок!`);
 
 
-// function sum(a, b) {
-//     return a + b;
-// }
+// 3 >='2' // true
+// '3' >='2' // 
+// false == 0 // true
+// false === 0// false
+// false === false //true
+// null === null //true
+// 'ваа' >='ббб' // true
+// 'я' >='ббб' //true
+// 'БББ' >= 'ааа' //true
+// ' && '1'
+// 1' && ''
+// ' || '1'
+// '1' || ''
+// '1' && '2' || '3'
+// '' && '2' || '3'
+// '1' && '' || '3'
+// '1' && '2' || ''
+// 0 && 1 || 2 && 3 || 4 || 5 && 6 && 7
+// 3 >=2 && 5 >=4
+// 3 >=2 || 5 >=4
+// 2 * 3 >=2 * 6
+// 2 * 0 || 3 * 1
+// '2' / 3 >=2
+// null == 0
+// NaN == 0
+// NaN == NaN
+// NaN === NaN
+// 2 * 3 >=9 / 2 || 4 % 0 && 12 == 3 * 4 || null
+// Infinity >=Infinity * 2
+// alert() === alert()
 
-// let res = sum(3, 5);
-// console.log(res);
-
-// Создайте функцию которая выводит в консоль "Привет"
-// function num(){
-//     console.log('Привет');
- 
-// }
-// num();
-
-// Создайте функцию которая возвращает число 7
-// function num(){
-//     return 7;
-// }
-// let res = num();
-// console.log(res);
+// let name, admin;
+// name = 'Джош';
+// admin = name;
+// alert(name);
 
 
-//Создайте функцию которая
-// умножает 2 числа, переданных ей как параметры
-// function num(a, b){
-//     return a * b;
-// }
-// let res = num(10, 5);
-// console.log(res);
+// let yourName = "Ilya";
 
-//Создайте функцию pow(2, 3) которая возводит первый аргумент в степень числа переданного вторым аргументом. В примере нужно 2 возвести в степень 3
+// alert( `hello ${1}` ); // ? hello 1
+
+// alert( `hello ${"name"}` ); // ? hello name
+
+// alert( `hello ${yourName}` ); //  hello ilya
+
+// let a = 1, b = 1;
+
+// let c = ++a; // 2
+// let d = b++; // 1
+// console.log(c,d);
+
+// let a = 2;//4
+
+// let x = 1 + (a *= 2);//5
+
+// console.log(a, x);
+
+// "" + 1 + 0 // 10 
+// "" - 1 + 0 // -1
+// true + false //1 типа тру это 1 а фолс 0, 1+0=1
+// 6 / "3"// 2
+// "2" * "3" //6
+// 4 + 5 + "px" //9px
+// "$" + 4 + 5 //$45
+// "4" - 2 // 2
+// "4px" - 2// NaN вот тут я тупанул 
+// 7 / 0 // Infinity
+// "  -9  " + 5 // -9 5
+// "  -9  " - 5//  -14 
+// null + 1 // 1
+// undefined + 1 //NaN тут я ошибся
+// " \t \n" - 2//
+
+// let a = +prompt("Первое число?", 1);
+// let b = +prompt("Второе число?", 2);
+
+// alert(a + b); // 12
+
+// let a = 1, b = 1;
+
+// let c = ++a; // ?
+// let d = b++; // ?
+
+// console.log(c, d);
+
 // let a = 2;
-// let b = 3
-// function pow(a, b){
-//     return a ** b;
-// }
 
-// let res = pow(2, 3);
-// console.log(res);
-
-
-
-// runApp();
-
-// function runApp() {
-//     alert('Привет добро пожаловать в "Игромат" версии 0,1');
-//     let func = chooseFunction();
-//     startFunction(func);
-//     alert('Пока');
-// }
-
-// function chooseFunction(){
-
-// }
-
-// function startFunction(){
-
-// }
-
-// let a = 34;
-// let b =10;
-// let c ="строка!";
-
-// let resA = a + 2;
-// console.log(resA);
-
-// let resB = b + 5;
-// console.log(resB);
-
-// let resC = 'Новая ' + c;
-// console.log(resC);
-
-
-// let a = 34;
-// let b = 20;
-// let c = 'Новая';
-
-// a = a + 2; // = 36
-// b = b - 5; // = 15
-// c = c + " строка!"; //= "Новая строка"
-// console.log(a);
-// console.log(b);
-// console.log(c);
-
+// let x = 1 + (a *= 2);
