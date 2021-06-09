@@ -255,3 +255,436 @@
 
 // alert(i);
 
+// const div = document.createElement('div');
+// const header = document.createElement('h1');
+// header.innerText = 'Learn Js';
+
+// div.appendChild(header)
+// document.body.appendChild(div)
+// console.log(div)
+// console.log(header)
+
+
+// let start = prompt('Какое "официальное" название JavaScript?');
+
+// if (start == 'ECMAScript') {
+//     alert('Правильно');
+// } else {
+//     alert('Непрвильно');
+// }
+
+
+// let num = prompt('Введите число');
+// if (num > 0) {
+//     alert(1);
+// } else if (num < 0) {
+//     alert(-1);
+// } else {
+//     alert(0);
+// }
+
+
+// let result;
+
+// if (a + b < 4) {
+//   result = 'Мало';
+// } else {
+//   result = 'Много';
+// }
+
+// let message;
+
+// if (login == 'Сотрудник') {
+//   message = 'Привет';
+// } else if (login == 'Директор') {
+//   message = 'Здравствуйте';
+// } else if (login == '') {
+//   message = 'Нет логина';
+// } else {
+//   message = '';
+// }
+
+
+// let message = (login == 'Сотрудник') ? 'Привет' :
+// (login == 'Директор') ? 'Здравствуйте' :
+// (login == '') ? 'Нет логина' :
+// '' ;
+
+// if (age < 14 || age > 90);
+
+// let hour = 2;
+
+
+
+// let userAdmin = prompt('Кто там?', '');
+
+
+// let helloMessageElement;
+
+// let helloMessagediId = 'hello-message';
+// helloMessageElement = document.getElementById(helloMessagediId);
+
+
+// window.alert(helloMessageElement.value);
+
+// let citiesId;
+// citiesId = 'address';
+// citiesId = document.getElementById()
+// let citiesEl = 'cities';
+
+
+// const mon = 'Понедельник';
+// const tue = 'Вторник';
+// const wed = 'Среда';
+// const thu = 'Четверг';
+// const fri = 'Пятница';
+
+// const info = {
+//     name: 'Сергей',
+//     age: 28,
+//     city: 'Казахстан',
+//     isMAil: true
+//     };
+
+// console.log(info.name);
+
+// info.name = 'sergo'
+// console.log(info.name);
+
+
+// function sayHello(name, age) {
+//     return `Привет ${name} тебе ${age} лет`; 
+// }
+// const hiSerg = sayHello('Сергей', 28);
+
+// console.log(hiSerg);
+
+// const calculator = {
+//     plus: function(a, b) {
+//         return a**b;
+//     },
+//     minus: function() {
+
+//     }
+// }
+
+// const summa = calculator.plus(10, 5);
+// console.log(summa);
+
+
+// const title = document.querySelector('#title');
+// const CLICKED_CLASS = 'clicked';
+
+// function clickHandler() {
+//    title.classList.toggle(CLICKED_CLASS);
+// }
+
+// function init(){
+//     title.addEventListener('click', clickHandler);
+// }
+
+// init();
+
+
+
+// const clockContainer = document.querySelector('.js-clock'),
+//       clockTitle = clockContainer.querySelector('h1');
+
+// function getTime() {
+//     const date = new Date();
+//     const minutes = date.getMinutes();
+//     const hours = date.getHours();
+//     const seconds = date.getSeconds();
+//     clockTitle.innerHTML = `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes}` : minutes}:${seconds < 10 ? `0${seconds}`: seconds}`;
+// }
+
+
+
+// function init() {
+//     getTime();
+//     setInterval(getTime, 1000);
+// }
+
+// init();
+
+// let age = prompt('Введите свой возраст'); 
+
+// if (age <= 18 )  {
+//      console.log('Вы еще молоды');
+// } else if (age < 50) {
+//      console.log('Вам нужно работать');
+// } else if (age == 50) {
+//      console.log('Вам нужно работать');
+// } else if (age < 59) {
+//      console.log('Вам скоро на пенсию');
+// } else if (age == 59) {
+//      console.log('Вам скоро на пенсию');
+// } else if (age <= 150) {
+//      console.log('Вы пенсионер');
+// } else {
+//      console.log('Ошибка');
+// }  
+
+// let age = Number(prompt('Введите свой возраст'));
+
+// if (age > 0 && age <= 18) {
+//      console.log('Вы еще молоды');
+// } else if (age > 18 && age <=50) {
+//      console.log('Вам нужно работать');
+// } else if (age > 50 && age <=59) {
+//      console.log('Вам скоро на пенсию');
+// } else if (age > 59 && age <=150) {
+//      console.log('Вы пенсионер');
+// } else {
+//      console.log('Что то пошло не так');
+// }
+
+
+// let watch = Number(prompt('Введите сколько сейчас времени от 0 до 24'));
+
+// if (watch == 1) {
+//      console.log('час ночи');
+// } else if (watch >= 2 && watch <=4) {
+//      console.log(`${watch} часа ночи`);
+// } else if (watch >=5 && watch <= 11) {
+//      console.log(`${watch} часов утра`);
+// } else if (watch == 12) {
+//      console.log('12 часов дня');
+// } else if (watch == 13) {
+//      console.log(`${watch -12} час дня `);
+// } else if (watch >= 14 && watch <= 16) {
+//      console.log(`${watch -12} часа дня`);
+// } else if (watch == 17) {
+//      console.log(`${watch -12} часов дня`);
+// } else if (watch >=18 && watch <= 21) {
+//      console.log(`${watch -12} часов вечера`);
+// } else if (watch >= 22 && watch <= 24) {
+//      console.log(`${watch -12} часов ночи`);
+// } else {
+//      console.log('Ошибка');
+// }
+
+//  let watch = Number(prompt('Введите промежуток времени от 0 до 24'));
+
+// if (watch >= 5 && watch <= 11) {
+//      console.log('Доброе утро');
+// } else if (watch > 11 && watch <=17) {
+//      console.log('Добрый день');
+// } else if (watch > 17 && watch <=21) {
+//      console.log('Добрый вечер');
+// } else if (watch > 22 && watch <= 24) {
+//      console.log('Доброй ночи');
+// } else if (watch >= 0 && watch <= 4) {
+//      console.log('Доброй ночи');
+// } else {
+//      console.log('Не верное число');
+// }
+
+
+// let balls = Number(prompt('Введите любую цифру от 0 до 10'));
+
+// if (balls == 1) {
+//      console.log('1 мяч');
+// } else if (balls >=2 && balls <=4) {
+//      console.log(`${balls} мяча`);
+// } else if (balls >=5 && balls <= 10) {
+//      console.log(`${balls} мячей`);
+// } 
+
+// let balls = Number(prompt('Введите колличество мячей')); // Полхо понял 
+// let mod10 = balls % 10;
+// let mod100 = balls % 100;
+
+// if (mod10 == 0 || mod100 >= 5 && mod100 <= 19) {
+//      console.log(`В зале лежало ${balls} мячей`);
+// } else if (mod10 >= 2 && mod10 <=4) {
+//      console.log(`В зале лежало ${balls} мяча`);
+// } else if (mod10 == 1) {
+//      console.log(`В зале лежало ${balls} мяча`);
+// }
+
+
+// let i = 0;
+// //постфикс инкремент
+// console.log(++i); // прибавляет элемент на один
+// // постфикс дикримент
+// console.log(--i); // высчитывает элемент на один 
+// // префикс инкримент 
+// console.log(i++); // сначала выводит ноль и потом + один
+
+// let i = 10;
+// while(i > 0){
+//     i--;
+//     console.log(i);
+// }
+
+// цикл do while 
+
+// let i = 0;
+// do{
+//     console.log(i);
+//     i++
+// }while(i < 5);
+
+
+// let i = 5;
+// do{
+//     i--; 
+//     console.log(i);
+// }while(i > 0)
+
+// цикл for
+
+// for(let i = 0; i < 5; i++){
+//     console.log(i);
+// }
+
+// напишите цикл на подсчет факториала числа 5 (1 * 1 * 2 * 3 * 4 * 5 * 6) 120;
+
+// let num = Number(prompt('Введите число для подсчет факториала'));
+// let res = 1;
+// for(let i = 1; i <= num; i++) {
+//     res = res * i;
+//     console.log(res);
+// }
+
+// let num = Number(prompt('Введите число для подсчет факториала'));
+// let res = 1;
+// let i = 1;
+// while (i <= num) {
+//     res = res * i;
+//     console.log(res);
+//     i++
+// }
+
+
+// let num = Number(prompt('Введите число для подсчет факториала'));
+// let res = 1;
+// let i = 1;
+// do {
+//     res = res * i;
+//     console.log(res);
+//     i++
+// } while (i <= num);
+
+
+// функцуия 
+
+// function hello() {
+//     console.log('helo world');
+// }
+// hello();
+
+// function hello(x) {
+//     return `hello ${x}`;
+// }
+// console.log(hello('people'));
+// console.log(hello('friend'));
+// console.log(hello('Max'));
+
+// x это аргумен функции для передачи данных
+
+// более акуратный код 
+
+// function hello(x) {
+//     let res = `heello ${x}`;
+//     return res;
+// }
+// console.log(hello('people'));
+// console.log(hello('friend'));
+// console.log(hello('Max'));
+
+// что бы не писать много аргументов 
+// нужно поставить троеточие
+
+// function hello(...x) {
+//     let res = `heello ${x}`;
+//     return res;
+// }
+// console.log(hello('people', ' how are you' , ' bay'));
+// console.log(hello('friend'));
+// console.log(hello('Max'));
+
+
+// let num = Number(prompt('Введите число'));
+// let str = '';
+// for(let i = 0; i < num; i++) {
+//      str = str + '*';
+//     console.log(str);
+// }
+
+
+// let num = Number(prompt('Введите число'));
+// let str = '';
+// for(let i = 0; i < num; i++){
+//     if (i == 0) {
+//        str += '*';
+//     } else {
+//         str = '_' + str;
+//     }
+//     console.log(str);
+// }
+
+// let num = Number(prompt('Введите число'));
+// let str = '';   
+// for(let i = 0; i < num; i++) {
+//     for(let j = 0; j < num - i; j++){
+//         str = str + ' ';
+//     }
+//     for(let j = 0; j < i * 2 + 1; j++){
+//         str = str + '*';
+//     }
+//     console.log(str);
+//     str = '';
+// }
+
+// let num = 5;
+// let str = '';   
+// let int = 0;
+// for(let i = 0; i < num * 2 - 1; i++) {
+//     if (int < num) {
+//        for(let j = 0; j < num - i; j++){
+//             str = str + ' ';
+//         }
+//         for(let j = 0; j < i * 2 + 1; j++){
+//             str = str + '*';
+//         }
+//         console.log(str);
+//     } else {
+//         for(let j = 0; j < i - num + 1; j++){
+//             str = str + ' ';
+//         }
+//         for(let j = 0; j < 2 * (num * 2 - i) - 3; j++){
+//             str = str + '*';
+//         }
+//         console.log(str);
+//     }
+//     str = '';  
+//     int++;
+// }
+
+// const usersObj = {
+//     '1': {
+//         name: 'Max',
+//         age: 28,
+//     },
+//     '2': {
+//         name: 'Lena',
+//         age: 25,
+//     }
+// }
+
+// for(const i in usersObj){
+//     // console.log(i);
+//     for(const key in usersObj[i]){
+//         // console.log(key);
+//         if('Max' == usersObj[i][key]){
+//             for(const keyUser in usersObj [i]){
+//                 console.log(usersObj[i][keyUser]);
+//             }
+//         }
+//     }
+// }
+
+
+                                 

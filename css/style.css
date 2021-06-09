@@ -1,0 +1,17 @@
+body{
+    background-color: #ecf0f1;
+    transform-style: preserve-3d;
+}
+
+h1{
+    color: #34495e;
+    transition: .3s ease-in-out;
+}
+
+.clicked{
+    color: #7f8c8d;
+}
+
+.btn{
+    cursor: pointer;
+}
