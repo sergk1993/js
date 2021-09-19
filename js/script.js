@@ -687,4 +687,106 @@
 // }
 
 
-                                 
+//  const arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14];
+
+// // for(const i in arr) {
+// //     console.log(arr[i]);
+// // }
+
+// // for (let i = 0; i < 0;  ) {
+
+// // }
+// console.log(arr);
+// for(let i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+// }
+
+
+// const arr = [1,2,3,4,5,6,7,8,9,11,12,13,14];
+
+// let answer = 0;
+
+// for(let i = 0; i < arr.length; i++) {
+//    answer += arr[i] % 2 == 0 ? 1 : 0;
+// }
+// console.log(answer);
+
+// let login = prompt('Введите логин');
+
+
+// if (login == 'админ') {
+//     let pass = prompt('Введите пароль', '');
+// if (pass == 'я главный') {
+//     alert('Здравствуйте');
+// } else if (pass == '' || pass == null) {
+//     alert('Отменено')
+// } else {
+//     alert('Неверный пароль');
+// }
+// } else if (login == '' || login == null) {
+//     alert('Отменено');
+// } else {
+//     alert('Я вас не знаю');
+// }
+
+
+// let clock = prompt('Сколько сейчас времени, введи число от 1 до 24?');
+// if (clock == 1) {
+//     alert(`${clock} час ночи`);
+// } else if (clock >= 2 && clock <=4) {
+//     alert(`${clock} часа ночи`);
+// } else if (clock >= 5 && clock <= 11) {
+//     alert(`${clock} часов утра`);
+// } else if (clock == 12) {
+//     alert(`${clock} часов дня`);
+// } else if (clock == 13) {
+//     alert(`${clock - 12} час дня`);
+// } else if (clock >= 14 && clock <= 16) {
+//     alert(`${clock - 12} часа дня`);
+// } else if (clock == 17) {
+//     alert(`${clock - 12} часов дня`);
+// } else if (clock >= 18 && clock <= 21 ) {
+//     alert(`${clock - 12} часов вечера`);
+// } else if (clock >= 22 && clock <= 24) {
+//     alert(`${clock - 12} часов ночи`)
+// }
+
+
+
+// let name ;
+// name = 'Паша';
+// name = 122;
+// alert(name);
+
+// let name = ('123');
+
+// alert(typeof(name));
+
+// alert(typeof(typeof(777)));
+
+// console.log(confirm(1));
+// console.log(prompt('Как тебя завут'));
+// console.log(3);
+
+// let name = prompt('Как тебя зовут');
+// console.log(name);
+// let typeOfMyName = (name);
+// console.log(typeof(typeOfMyName));
+
+// let isHas = confirm('Вы тут');
+// console.log(isHas);
+
+// let name = (123);
+// confirm(name);
+// console.log(typeof(name));
+
+// let name = prompt('задайте вопрос');
+// console.log(prompt(name));
+
+// confirm(console.log(typeof(123)));
+
+prompt(prompt('Задайте вопрос'));
+
+
+
+
