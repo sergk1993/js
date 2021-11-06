@@ -30,6 +30,7 @@
 
 // console.log(prompt('Кто ты?'),confirm('Привет'));
 
+
 // let sum = 999 * 999;
 // console.log(sum);
 
@@ -246,7 +247,7 @@
 // } else {
 //     alert('Я вас не знаю');
 // }
-     
+
 // let i = 0;
 
 // for (i = 0; i < 3; i++) { // используем существующую переменную
@@ -785,7 +786,2472 @@
 
 // confirm(console.log(typeof(123)));
 
-prompt(prompt('Задайте вопрос'));
+// prompt(prompt('Задайте вопрос'));
+
+
+
+
+// window.onload = () => {
+//    let input =  document.querySelector('#input');input.oninput = function() {
+//         let value = this.value.trim();
+//         let list = document.querySelectorAll('.ul li');
+
+//         if(value != '') {
+
+//             list.forEach(elem => {
+//                 if(elem.innerText.search(value) == -1) {
+//                     elem.classList.add('hide');
+//                 }
+//             });
+
+//         }   else {
+//             list.forEach(elem => {
+//                 elem.classList.remove('hide');
+//             });
+//         }
+
+
+//         console.log(this.value);
+//    }  
+// }
+
+// let a = 'Сергей'
+
+// confirm(a);
+// console.log(typeof(a));
+
+
+// let myName = prompt('Введите вопрос');
+// console.log(prompt(myName));
+
+// let sum ;
+// sum = 0.1 + 0.2 ;
+// console.log(sum);
+
+
+// let name = prompt('Как тебя зовут');
+// let nameFriend = prompt('Как зовут твоего друга');
+// let howMuchApples = +prompt('Сколько у тебя яблок');
+// let appleFriend = +prompt('А сколько яблок у твоего друга');
+// let sum = howMuchApples + appleFriend;
+
+// let answer = 'Значит ' + name + ' и ' + nameFriend + ' имеют ' +  sum + ' яблок! ';
+
+// alert(answer)
+
+// alert(`Значит  ${name}  и  ${nameFriend} имеют  ${sum} яблок!`);
+
+// let num = 4;
+// if ( num == '') {
+//     console.log('Да');
+// } else  if (num > 3) {
+//     console.log('Нет');
+// }
+
+
+// let name = prompt('Введи цифру');
+
+// switch (name) {
+//     case '1':
+//        console.log('Один');
+//         break;
+//     case '2':
+//        console.log('два');
+//         break;
+//     case '3':
+//         console.log('три');
+//          break;
+//     case '4':
+//         console.log('четыре');
+//         break;
+//     case '5':
+//         console.log('пять');
+//         break;
+// }   
+
+// let name = prompt('Введите имя');
+//     switch (name) {
+//         case 'маша':
+//         case 'дима':
+//         case 'антон':
+//             console.log('7а');
+//             break;
+//         case 'Света':
+//         case 'света':
+//         case 'Леша':
+//         case 'леша':
+//             console.log('7б');
+//             break;
+//         default:
+//             console.log('Ошибка ввода');
+//     } 
+
+
+// let name = prompt('Введите число');
+//     switch (name) {
+//         case '1':
+//             console.log(1);
+//             break;
+//         case '2':
+//             console.log(2);
+//             break;
+//         case '3':
+//             console.log(3);
+//             break;
+//         case '4':
+//             console.log(4);
+//             break;
+//         case '5':
+//             console.log(5);
+//             break;
+
+//         case '-1':
+//             console.log(-1);
+//             break;
+//         case '-2':
+//             console.log(-2);
+//             break;
+//         case '-3':
+//             console.log(-3);
+//             break;
+//         case '-4':
+//             console.log(-4);
+//             break;
+//         case '-5':
+//             console.log(-5);
+//             break;
+
+//     }
+
+
+// let num = 5;
+
+// let sum = num === 5 ? 'Да' : 'Нет';
+// console.log(sum);
+
+// let num = 87;
+
+// let sum = num > 8 ? 'Да' : 'Нет';
+// console.log(sum);
+
+// let num = 5;
+
+// let sum = num <= 3 ? 'Да' : 'Нет';
+// console.log(sum);
+
+// let num = 5;
+
+// let sum = num > 3 < 10 ? 'Да' : 'Нет';
+// console.log(sum);
+
+// for (let i = 20; i >= 1; i--) {
+//     console.log(i);
+// }
+
+
+// for (let i = 1; i <= 20; i++) {
+//     if (i % 2) {
+//         console.log(i);
+//     }
+//  }
+
+
+// let answer;
+// while (answer !== 'хватит') {
+//     console.log('user:', answer);
+//     answer = prompt('Ввод пользователя');
+// }
+// console.log('Операция завершена');
+
+
+// let str = '';
+// for (let i = 0; i < 10; i++) {
+//     str += '0';
+//     console.log(str);
+// }
+
+
+
+// function gitFive() {
+//     console.log('gitFive');
+//     return 7;
+// }
+
+// let res = gitFive();
+// console.log(res);
+
+
+// function sum(a, b) {
+//     return a ** b;
+// }
+
+// let ras = sum(5, 8);
+// console.log(ras);
+
+// function  sayHi() {
+//     console.log('Привет');
+// }
+// sayHi();
+
+
+// function getFive() {
+//     return 7 ;
+
+// }
+
+// let end = getFive() ;
+// console.log(end);
+
+// function sum(a,  b) {
+//     return a ** b;
+// }
+
+// console.log(sum(2, 3));
+
+
+// function showMessage() {
+//     let message = 'Привет я JavaScript';
+//     console.log(message);
+//   }
+
+//   showMessage();
+
+
+// let userName = 'Вася';
+
+// function showMessage() {
+//     userName = 'Коля';
+//     let message = 'Привет, ' + userName;
+//     console.log(message);
+// }
+
+// showMessage();
+
+
+// function showMessage(from, text) {
+//     alert(from + ': ' + text);
+// }
+// showMessage('Аня', 'Привет!');
+// showMessage('Аня', 'Как дела?');
+
+
+// function showMessage(from, text) {
+//     from = '*' + from + '*';
+//     console.log(from + ': ' + text);
+// }
+
+// let from = 'Аня';
+// showMessage(from, 'Привет');
+
+// console.log(form);
+
+// function showMessage(from, text = 'Текст не добавлен') {
+//     console.log(from + ': ' + text);
+// }
+
+// showMessage('аня');
+
+
+// function sum(a, b){
+//     return a + b;
+// }
+// let result = sum(1, 2);
+// console.log(result);
+
+// function checkAge(age) {
+//     if (age > 18) {
+//         return true;
+//     } else {
+//         return confirm('А родители разрешили?');
+//     }
+// }
+
+// let age = prompt('Сколько вам лет?');
+
+// if (checkAge(age) ) {
+//     alert('Доступ получен');
+// } else {
+//     alert('Доступ закрыт');
+
+// let count = 10;
+// while (count) {
+//     console.log(count);
+//     count = count -1;
+// }
+
+// console.log('444');
+
+// let answer;
+// while (answer !== 'exit') {
+//     console.log('user:', answer);
+//     answer = prompt('Впиши фразу')
+// }
+
+// console.log('444');
+
+//  let count = 0;
+//  do {
+//     console.log(count);
+//     count = count -1;
+//  }
+// while (count > 0)
+
+// console.log('444');
+
+
+// for (let count = 10; count; count = count -1) {
+//     console.log(count);
+// }
+
+
+// for (let i = 0; i <= 10; i++) {
+//     console.log(i);
+// }
+
+
+// console.log('1');
+// if ('789') {
+//     console.log('2');
+// } else {
+//     console.log('3');
+
+// }
+// console.log('123');
+
+// alert('Привет');
+// let name = prompt('Как тебя зовут');
+// let nameFriend = prompt('Как зовут твоего друга');
+// let apple = +prompt('Сколько у тебя яблок');
+// let appleFriend = +prompt('Сколько яблок у твоего друга');
+// let sum = apple + appleFriend;
+
+
+// alert('Значит ' + name + ' и ' + nameFriend + ' имеют ' + sum + ' яблок! ');
+// alert(`Значит ${name} и ${nameFriend} имеют ${sum} яблок!`);
+
+
+/*
+Экзамен № 2
+ */
+
+
+// runApp();
+
+// function runApp() {
+//     alert('Привет добро пожаловать в игравой автомат!');
+//     while (true) {
+//         let numberOfGame = chooseGame();
+//         if (numberOfGame === null) {
+//             break;
+//         }
+//         alert('Игра запускается...');
+//         startGame(numberOfGame);
+//     }
+//     alert(`Пока, пока`);
+
+// }
+
+
+// function chooseGame() {
+//    while (true) {
+//         let userAnswer = prompt(`
+//             Выбери игру!:
+//             1 - угадалка;
+//             2 - считалка;
+//             3 - кликалка;
+//             Для выхода нажми "выход"
+//     `);
+
+//     switch (userAnswer) {
+//         case `угадалка`:
+//         case `1`:
+//             return 1;
+//         case `считалка`:
+//         case `2`:
+//             return 2;
+//         case `клиукалка`:
+//         case `3`:
+//             return 3;
+//         case `выход`:
+//             return none;
+//         default:
+//             alert(`не правельный ввод, попробуй еще раз = (`);
+//     }
+//    }
+
+// }
+
+// function startGame(numberOfGame) {
+//     switch (numberOfGame) {
+//         case 1:
+//             runGuessGame();
+//             break;
+//         case 2:
+//             runCalcGame();
+//             break;
+//         case 3:
+//             runClickGame();
+//             break;
+//         default:
+//             throwGameError();
+//     }
+// }
+
+
+
+
+// function throwGameError() {
+//     alert(`Критическая ошибка!`);
+
+// }
+
+
+// function runGuessGame() {
+//     alert(`Игра "Угадалка"`);
+//     alert(`
+//     Я случайным образом загадаю число от 1 до 100.
+//     Твоя задача его угадать за минимальное количество попыток.
+//     После каждого твоего ввода я буду говорить больше твое число или меньше загаданого.
+//     Начнем?
+//     `);
+
+//     let targetNumber = generateRandomNumber(1, 100);
+//     let attemptCount = 0;
+//     while (true) {
+//         attemptCount++;
+//         let isCorrectAnswer = askGuessGameQuest(targetNumber);
+//         if (isCorrectAnswer) {
+//             break;
+//         }
+//     };
+//     alert(`Тебе удалось угадать за ${attemptCount} попыток`);
+// }
+
+// function askGuessGameQuest(targetNumber) {
+//     while (true) {
+//         let userAnswer = +prompt('Попробуй угадать');
+//         if (userAnswer === targetNumber) {
+//             alert('Угадал');
+//             return true;
+//         }
+//         if (userAnswer < targetNumber) {
+//             alert('Слишком мало');
+//             return false;
+//         }
+//         if (userAnswer > targetNumber) {
+//             alert('Слишком много');
+//             return false;
+//         }
+//         alert('Неверный ввод =(');
+//     }
+// }
+
+// function generateRandomNumber(min, max) {
+//     let constantForFloor = 1;
+//     let rangeSize = max + constantForFloor - min;
+//     let randomNumberInRange = Math.random() * rangeSize;
+//     let randomNumber = min + randomNumberInRange;
+//     let randomIntegerNumber = Math.floor(randomNumber);
+//     return randomIntegerNumber;
+// }
+
+// function runCalcGame() {
+//     alert(`Игра "Считалка"`);
+//     alert(`
+//     Я случайным образом буду давать задание по арифметеке. 
+//     Твоя задача правильно решить 5 примеров.
+//     Начинаем?
+//     `);
+//     let correctAnswerCount = 0;
+//     for (let i = 1; i <= 5; i++) {
+//         let isCorrectAnswer = askCalcGameQuest();
+//         if (isCorrectAnswer) {
+//             correctAnswerCount++;
+//         }
+//     }
+//     alert(`Правильных ответов: ${correctAnswerCount} из 5`);
+// }
+
+// function askCalcGameQuest(minNumber = 0, maxNumber = 20) {
+//         let firstNumber = generateRandomNumber(minNumber, maxNumber);
+//         let secondNumber = generateRandomNumber(minNumber, maxNumber);
+//         let mathAction = generateRandomMathAction()
+//         let userAnswer = +prompt(`${firstNumber} ${mathAction} ${secondNumber}`);
+//         let correctAnswer = calcStringMathAction(firstNumber, mathAction, secondNumber);
+//         let isCorrectAnswer = userAnswer === correctAnswer;
+//         return isCorrectAnswer;
+// }
+
+// function calcStringMathAction(firstNumber, mathAction, secondNumber) {
+//   switch (mathAction){
+//     case '+':
+//         return firstNumber + secondNumber;
+//     case '-':
+//         return firstNumber - secondNumber;
+//     case '*':
+//         return firstNumber * secondNumber;
+//     default:
+//         throwGameError();
+//   }
+// }
+
+
+// function generateRandomMathAction() {
+//     let randomNumber = generateRandomNumber(1, 3);
+//     switch (randomNumber) {
+//         case 1:
+//             return '+';
+//         case 2:
+//             return '-';
+//         case 3 :
+//             return '*';
+//         default:
+//             throwGameError();
+//     }
+// }
+
+// function runClickGame() {
+//     alert(`Игра "Кликалка"`);
+//     alert(`
+//     Я случайным образом буду показывать 10 системных окон. 
+//     Твоя задача как можно скорее прикликать все. 
+//     При этом в окне confirm нужно нажимать "Отмена".
+//     Начинаем?
+//     `);
+//     let errorCount = 0;
+//     for (let i = 1; i <= 10; i++) {
+//         let isCorrectAnswer = askClickGameQuest(); /* askClickGameQuest(); если то не будет работать у него в видео стояло это */
+//         if (!isCorrectAnswer) {
+//             errorCount++;
+//         }
+//     }
+//     alert (`Ошибок: ${errorCount}`);
+// }
+
+// function askClickGameQuest(percentConfirm = 0.5) {
+//     let isConfirm = Math.random() < percentConfirm;
+//     if (isConfirm) {
+//         let answerConfirm = confirm(`Нажми "отмена"`);
+//         return !answerConfirm;
+//     } else {
+//         alert(`Просто нажми "ok"`);
+//         return true;
+//     }
+// }
+
+
+// let a = {
+//     name: 'Sam',
+//     lastName: 'Sasha',
+//     age: 29,
+//     dog: {
+//         name: 'sharik',
+//         age: 2,
+//     }
+// };
+// a.count = 7;
+
+// let b = a;
+
+// a.name = '123';
+// console.log(a);
+// console.log(b);
+
+
+// let one = 7;
+// sum(one);
+// console.log(one );
+
+// function sum(a) {
+//     a += 1;
+//     console.log(a);
+// }
+
+// function sum(a) {
+//     a.count += 1;
+//     console.log(a.count);
+// }
+
+// const user = {
+//     name: 'serg',
+//     age: 28,
+//     weight: '70 kg',
+//     profession:' junior web developer',
+// }
+
+// console.log(user);
+
+// const key = {
+//     one: 2,
+//     two: 3, 
+//     three: 4
+// }
+
+// let b = one + two  + three;
+
+// console.log(b);
+
+
+// const button = document.querySelector('button');
+// const input = document.querySelector('.age');
+
+// //Стрелочная функция работает как обычная функция
+
+// button.onclick = () => {
+//     let num = +input.value;
+//     if (num >= 16 && num < 60) {
+//         console.log('welcome');
+//     } else if (num > 60 && num < 100) {
+//         console.log('Возвраст не помеха');
+//     } else {
+//         console.log('ты не пройдешь');
+//     }
+
+//     switch (num) {
+//         case 15:
+//             console.log('Еще год потерпи');
+//             break;
+//         case 16:
+//             console.log('УУра можно');
+//             break;
+//         default:
+//             console.log('ooook');
+//     }
+// }
+
+
+// let b = prompt('введи число');
+// console.log(b == 3 || b == 7); 
+
+// let inputIn = document.querySelector('.age');
+// let btn = document.querySelector('button');
+
+// btn.onclick = function () {
+//     console.log('Работает');
+
+
+//     // let b = inputIn.value;
+//     // console.log(b * 2);
+//     // inputIn.value = '';
+// }
+
+
+// let inputIn = document.querySelector('.age');
+// let btn = document.querySelector('button');
+// let out = document.querySelector('.out')
+
+
+// btn.onclick = function () {
+//     let b = +inputIn.value;
+//     console.log(b );
+//     out.innerHTML = b + 10;
+//     inputIn.value = '';
+
+// }
+
+
+// let a = 3;
+// let b = 5;
+
+// let sum = a + b;
+// console.log(sum);
+
+
+// let name = document.querySelector('.name');
+// let lastName = document.querySelector('.last-name');
+// let btn = document.querySelector('button')
+
+// btn.onclick = function () {
+//     console.log(`Hello ${name.value} ${lastName.value}`);
+// }
+
+
+
+// let name = document.querySelector('.name');
+// let lastName = document.querySelector('.last-name');
+// let btn = document.querySelector('button');
+
+// btn.onclick = function () {
+//     let a = +name.value;
+//     let b = +lastName.value;
+//     console.log(a + b);
+// }
+
+
+// let name = document.querySelector('.name');
+// let btn = document.querySelector('button') ;
+
+// btn.onclick = function () { 
+//     name.value = 'Hello';
+//     console.log(name.value);
+// }
+
+
+// btn.onclick = function () {
+//     let b = +inputIn.value;
+//     console.log(b );
+//     out.innerHTML = b + 10;
+//     inputIn.value = '';
+
+// }
+
+
+// let name = document.querySelector('.name');
+// let btn = document.querySelector('button') ;
+// let div = document.querySelector('.out');
+
+// btn.onclick = function () { 
+//     name.value = 'Hello';
+//     div.style.borderBottom = '2px solid red'
+//     console.log(name.value);
+// }
+
+
+
+// let firsInput = document.querySelector('.name');
+// let lastInput = document.querySelector('.last-name');
+// let button = document.querySelector('button');
+// let div = document.querySelector('.out');
+
+// button.onclick = function() {
+//     let a =  +firsInput.value;
+//     let b =  +lastInput.value;
+//     let sum = a + b;
+//     div.innerHTML = sum;
+
+// }
+
+// let firstIn = document.querySelector('.name');
+// let button = document.querySelector('button');
+
+// button.onclick = function () {
+//     let 
+// }
+
+// const button = document.querySelector('button');
+// const input = document.querySelector('.name');
+
+// //Стрелочная функция
+
+// button.onclick = () => {
+//     let num = +input.value;
+//     if (num >=16 && num < 60) {
+//         console.log('welcome');
+//     } else if (num > 60){
+//         console.log('Ты точно сюда');
+//     } else {
+//         console.log('Ты не пройдешь');
+//     }
+
+//     switch (num) {
+//         case 15:
+//             console.log('Еще год потерпи');
+//             break;
+//         case 16:
+//             console.log('Ура можно');
+//             break;
+//         default:
+//             console.log('okk');
+//     }
+// }
+
+
+// let b = 3;
+
+// console.log(b > 3 || b < 7);
+
+
+
+// function f1 () {
+//     let a = +document.querySelector('.i-1').value;
+//     let out = document.querySelector('.out-1');
+
+//     if (a == 4) {
+//         out.innerHTML = true;
+//     } else {
+//         out.innerHTML = false;
+//     }
+// }
+
+// document.querySelector('.b-1').onclick = f1;
+
+// function f1 () {
+//     let input = +document.querySelector('.name').value;
+//     let outVisible = document.querySelector('.out');
+
+//     if (input == 4) {
+//         outVisible.innerHTML = true;
+//     } else {
+//         outVisible.innerHTML = false;
+//     }
+// }
+
+// document.querySelector('.btn').onclick = f1;
+
+
+
+
+// let a21 = 20;
+// let a22 = 60;
+
+// function f2 () {
+//     let inputValue = +document.querySelector('.name').value;
+//     let divValue = document.querySelector('.out');
+
+
+//     if (inputValue > a22 && inputValue < a21) {
+//         divValue.innerHTML = a21;
+//     } else if (inputValue > a21) {
+//         divValue.innerHTML = a22;
+
+//     } 
+// }        
+
+// document.querySelector('.btn').onclick = f2;
+
+
+
+// function f3 () {
+//     let inputOne = +document.querySelector('.name').value;
+//     let inpuetLast = +document.querySelector('.last-name').value;
+
+//     if (inputOne > inpuetLast) {
+//         console.log(inputOne);
+//     } else if (inpuetLast > inputOne) {
+//         console.log(inpuetLast);
+//     }
+// } 
+
+// document.querySelector('.btn').onclick = f3;
+
+
+
+// function f4 () {
+//     let input = +document.querySelector('.name').value;
+//     let divOut = document.querySelector('.out');
+//     if (input >= 18) {
+//         divOut.innerHTML = 1;
+//     } else {
+//         divOut.innerHTML = 0;
+//     }
+// }
+
+// document.querySelector('.btn').onclick = f4;
+
+
+// function f5 () {
+//     let input = +document.querySelector('.name').value;
+//     let div = document.querySelector('.out');
+//     if (input < 0) {
+//         div.innerHTML = 'm';
+//     } else if (input == 0) {
+//         div.innerHTML = 0;
+//     } else if (input >= 1) {
+//         div.innerHTML = 1;
+//     }
+
+// }
+
+// document.querySelector('.btn').onclick = f5;
+
+
+// function f6 () {
+//     let imput = +document.querySelector('.name').value;
+//     let div = document.querySelector('.out');
+//     if (imput % 2 == 0) {
+//         console.log('Even');
+//     } else if (imput % 2) {
+//         console.log('odd');
+//     }
+// }
+
+
+// document.querySelector('.btn').onclick = f6;
+
+
+// function f7 () {
+//     let inputOne = +document.querySelector('.name').value;
+//     let inputLast = +document.querySelector('.last-name').value;
+
+//     let div = document.querySelector('.out');
+//     let sum = inputOne ** inputLast;
+//     if (inputOne ** inputLast) {
+//         div.innerHTML = sum;
+//     }
+// }
+
+// document.querySelector('.btn').onclick = f7;
+
+
+
+// function f8 () {
+//     let select = +document.querySelector('.s-8').value;
+//     let div = document.querySelector('.out');
+//     // console.log(select + div);
+//     switch (select) {
+//         case 1:
+//             div.innerHTML = 'one';
+//             break;
+//         case 2:
+//             div.innerHTML = 'two';
+//             break;
+//         case 3:
+//             div.innerHTML = 'three';
+//             break;
+//     }
+
+// }
+
+// document.querySelector('.btn').onclick = f8;
+
+
+// function f9 () {
+//     let input = +document.querySelector('.name').value;
+//     let div = document.querySelector('.out');
+//     if (input >= 1 && input <=32) {
+//         div.innerHTML = 1;
+//     } else if (input >= 33 && input <= 43) {
+//         div.innerHTML = 2;
+//     } else if (input >= 44 && input <= 64) {
+//         div.innerHTML = 3;
+//     } else {
+//         div.innerHTML = 0;
+//     }
+// }
+
+// document.querySelector('.btn').onclick = f9;
+
+
+// function sel () {
+//     let select = +document.querySelector('.s-100').value;
+//     let div = document.querySelector('.out');
+//     div.innerHTML = select  ;
+// }
+
+// document.querySelector('.btn').onclick = sel;
+
+
+// function input1 () {
+//     let inputValue = +document.querySelector('.name').value;
+//     let div = document.querySelector('.out');
+//     div.innerHTML = typeof(inputValue);
+// }
+
+
+// document.querySelector('.btn').onclick = input1;
+
+
+
+// function input1 () {
+//     let inputValue = +document.querySelector('.name').value;
+//     document.querySelector('.out').innerHTML = inputValue;
+// }
+
+
+// document.querySelector('.btn').onclick = input1;
+
+
+// document.querySelector('button').onclick = () => {
+//     console.log(document.querySelector('#one').value);
+//     document.querySelector('button').style.backgroundColor = 
+//     document.querySelector('#one').value;
+
+// }
+
+// document.querySelector('#one').oninput = () => {
+//     console.log(document.querySelector('#one').value);
+//     document.querySelector('.out').innerHTML =
+//     document.querySelector('#one').value;
+// }
+
+
+
+// document.querySelector('#btn-1').onclick = () => {
+//     console.log(document.querySelector('#i2').value);
+//     let myCheckbox = document.querySelector('#i2');
+//     console.log(myCheckbox.checked);
+//     if (myCheckbox.checked) {
+//         console.log('Нажат');
+//     }   else {
+//         console.log('Не нажат');
+//     }
+// }
+
+// document.querySelector('#btn-2').onclick = (event) => {
+//     event.preventDefault();
+//     // let text = document.querySelector('#two');
+//     // console.log(text.value);
+//     // text.value = 'one';
+//     let form = document.querySelector('form');
+//     console.log(form);
+//     console.log(form.elements.two.value);
+//     console.log(form.elements.three.value);
+// }
+
+
+// document.querySelector('.btn').onclick = () => {
+//     document.querySelector('.div').innerHTML = 123;
+
+// }
+
+// document.querySelector('.input').onclick = () => {
+//     alert('Задачи');
+// }
+
+// document.querySelector('#btn').onclick = () => {
+//     // console.log(document.querySelector('.input1').value);
+//     let input2 = document.querySelector('.input1');
+//     console.log(input2.checked);
+//     if (input2.checked) {
+//         console.log('Выделенно');
+//     } else {
+//         console.log('не выделенно');
+//     }
+// }
+
+// document.querySelector('.btn').onclick = () => {
+//     let input2 = document.querySelector('.input1');
+//     if (input2.checked) {
+//                 console.log(document.querySelector('.input1').value);
+//             } else {
+//                 console.log('не выделенно');
+//             }
+// }
+
+
+// document.querySelector('.btn').onclick = () => {
+//     let inputValue = document.querySelector('.input1').value;
+//     document.querySelector('.div').innerHTML = inputValue;
+//     console.log(inputValue);
+// }
+
+
+
+// document.querySelector('.btn').onclick = () => {
+//     let input = document.querySelector('.input1');
+//     let div = document.querySelector('.div');
+//         if (input.checked) {
+//             document.querySelector('.div').innerHTML = input.value;
+//         } else {
+//             document.querySelector('.div').innerHTML = 0;
+//         }
+// }
+
+
+// document.querySelector('.btn').onclick = () => {
+//     let input = document.querySelector('.input1').value;
+//     console.log(input);
+//     document.querySelector('.btn').style.backgroundColor = input; 
+// }
+
+
+
+// document.querySelector('.btn').onclick = () => {
+//     let inputOne = document.querySelector('.input1');
+//     let inputTwo = document.querySelector('.input2');
+
+//     let tempValue = inputOne.value;
+//     inputOne.value = inputTwo.value;
+//     inputTwo.value = tempValue;
+
+// }
+
+
+// document.querySelector('.btn').onclick = () => {
+//     let input = document.querySelector('.input1').value;
+//     document.querySelector('.div').innerHTML = input;
+// }
+
+//     document.querySelector('.input1').oninput = () => {
+//     document.querySelector('.div').innerHTML = document.querySelector('.input1').value;
+// }
+
+
+
+// document.querySelector('.btn').onclick = () => {
+//     let area = document.querySelector('.input1').value;
+//     document.querySelector('.div').innerHTML = area;
+// }
+
+
+
+// document.querySelector('.btn').onclick = () => {
+//     let section = document.querySelector('.sel').value;
+//     document.querySelector('.div').innerHTML = section;
+// }
+
+// document.querySelector('.btn').onclick = (event) => {
+//     event.preventDefault();
+//     let inputOne = document.querySelector('.input1').value;
+//     let pass = document.querySelector('.input2').value;
+//     document.querySelector('.div').innerHTML =  inputOne + pass;
+// }
+
+
+// ПЕРЕПОВТОРЯЮ ВСЕ(ЗАКРЕПЛЯЮ) ----------------------------------------
+
+// function f1 () {
+//     let input = +document.querySelector('.one').value;
+//     let div = document.querySelector('.div');
+//     if (input == 4) {
+//         div.innerHTML = true;
+//     } else {
+//         div.innerHTML = false;
+//     }
+// }
+
+// document.querySelector('button').onclick = f1; 
+
+// let one = 4;
+// let two = 5; 
+
+// function f2 () {
+//     let div = document.querySelector('.div');
+//     if (one < two) {
+//         div.innerHTML = two;
+//     } else if (two > one) {
+//         div.innerHTML = two;
+//     }
+// }
+
+// document.querySelector('button').onclick = f2; 
+
+
+// function f3 () {
+//     let inputOne = +document.querySelector('.one').value;
+//     let inputTwo = +document.querySelector('.two').value;
+//     let div = document.querySelector('.div');
+
+//     if (inputOne > inputTwo) {
+//         div.innerHTML = inputOne;
+//     } else if (inputTwo > inputOne) {
+//         div.innerHTML = inputTwo;
+//     }
+// }
+
+// document.querySelector('button').onclick = f3;
+
+
+
+
+// function f4 () {
+//     let inputOne = +document.querySelector('.one').value;
+//     let div = document.querySelector('.div');
+//     if (inputOne >= 18) {
+//         div.innerHTML = 1;
+//     } else if (inputOne < 18) {
+//         div.innerHTML = 0;
+//     }
+// }
+
+// document.querySelector('button').onclick = f4;
+
+
+// function f5 () {
+//     let inputOne = +document.querySelector('.one').value;
+//     let div = document.querySelector('.div');
+//     if (inputOne < 0) {
+//         div.innerHTML = 'Первое Значение';
+//     } else if (inputOne == 0) {
+//         div.innerHTML = 'Второе значение';
+//     } else if (inputOne > 0) {
+//         div.innerHTML = 'Третье значение';
+//     }
+// }
+
+// // document.querySelector('button').onclick = f5;
+
+
+// Пока неочень понял почему сравнение с 0;
+
+// const button = document.querySelector('button');
+// let input = document.querySelector('.one');
+// let div = document.querySelector('.div');
+
+// button.onclick = () => {
+//     if (input.value % 2 == 0) {
+//         div.innerHTML = 'even'
+//     } else {
+//         div.innerHTML = 'odd';
+//     }
+// }
+
+
+// document.querySelector('button').onclick = () => {
+//     let inputOne = +document.querySelector('.one').value;
+//     let inputTwo = +document.querySelector('.two').value;
+//     let div = document.querySelector('.div');
+
+//     let sum = inputOne ** inputTwo;
+//     if (sum) {
+//         div.innerHTML = sum;
+// }
+// }
+
+
+
+// document.querySelector('button').onclick = () => {
+//     let output = +document.querySelector('.sel').value;
+//     let div = document.querySelector('.div');
+//     switch (output) {
+//         case 1:
+//             div.innerHTML = 'one';
+//             break;
+//         case 2:
+//             div.innerHTML = 'two';
+//             break;
+//         case 3:
+//             div.innerHTML = 'three';
+//             break;    
+//     }
+
+// }
+
+// document.querySelector('button').onclick = () => {
+//     let inputOne = +document.querySelector('.one').value;
+//     let div = document.querySelector('.div');
+//     if (inputOne >= 1 && inputOne <= 32 ) {
+//         div.innerHTML = 1;
+//     } else if (inputOne >= 33 && inputOne <= 43 ) {
+//         div.innerHTML = 2;
+//     } else if (inputOne >= 44 && inputOne <= 64) {
+//         div.innerHTML = 3;
+//     } else {
+//         div.innerHTML = 0;
+//     }
+// }
+
+// document.querySelector('button').onclick = () => {
+//     let sel = +document.querySelector('.sel').value;
+//     let div = document.querySelector('.div');
+//     div.innerHTML = sel;
+// }
+
+
+
+// document.querySelector('button').onclick = () => {
+//     let inputOne = document.querySelector('.one');
+//     let div = document.querySelector('.div');
+
+//     div.innerHTML = typeof(inputOne.value);
+// }
+
+
+// document.querySelector('button').onclick = () => {
+//     let input = document.querySelector('.one').value;
+//     let div = document.querySelector('.div');
+
+//     let a = input;
+//     div.innerHTML = typeof(a);
+// }
+
+// document.querySelector('button').onclick = () => {
+//     let inputOne = +document.querySelector('.one').value;
+//     let inputTwo = +document.querySelector('.two').value;
+//     let sel = document.querySelector('.sel').value;
+//     let div = document.querySelector('.div');
+
+//     switch (sel) {
+//         case '+':
+//             div.innerHTML = inputOne + inputTwo;
+//             break;
+//         case '-':
+//             div.innerHTML = inputOne - inputTwo;
+//             break;
+//         case '*':
+//             div.innerHTML = inputOne * inputTwo;
+//             break;
+//         case '/':
+//             div.innerHTML = inputOne / inputTwo;
+//             break;
+//     }
+
+
+// }
+
+// ЗАКОНЧИЛ ПОВТОРЕНИЕ ------------------------------------------
+
+// document.querySelector('button').onclick = () => {
+//     console.log(document.querySelector('#one').value);
+// }
+// document.querySelector('#one').oninput = () => {
+//     document.querySelector('.div').innerHTML = document.querySelector('#one').value;
+
+// }
+
+// document.querySelector('#btn-1').onclick = () => {
+//     // console.log(document.querySelector('#i2').value); 
+//     let myCheckBox = document.querySelector('#i2');
+
+//     if (myCheckBox.checked) {
+//         console.log('Нажат');
+//     } else {
+//         console.log('Не нажат');
+//     }
+// }
+
+
+//INPUT, RANGE, TEXTAREA, CHECKBOX---------------------------------------------
+
+// document.querySelector('#btn-2').onclick = (event) => {
+//     event.preventDefault();
+//     // let text = document.querySelector('#two');
+//     // console.log(text.value);
+//     // text.value = 'one';
+//     let form = document.querySelector('form');
+//     console.log(form);
+//     console.log(form.elements.two.value);
+//     console.log(form.elements.three.value);
+// }
+
+
+// document.querySelector('.b-1').onclick = () => {
+//     let task = 14
+//     alert(task);
+// }
+
+// document.querySelector('.btn').onclick = () => {
+//     let inputFirst = document.querySelector('.inputOne').value;
+//     alert(inputFirst);
+//     console.log(inputFirst);
+// }
+
+
+
+
+// document.querySelector('.btn').onclick = () => {
+//   let box = document.querySelector('.check')
+//   let inputOne = document.querySelector('.check').value;
+//   let div = document.querySelector('.div');
+//     if (box.checked) {
+//         div.innerHTML = inputOne;
+//         } else {
+//             div.innerHTML = false;
+//         } 
+// }
+
+
+
+
+// document.querySelector('.btn').onclick =  () => {
+//     let inputOne = document.querySelector('.check');
+//     let div = document.querySelector('.div');
+//     if (inputOne.checked) {
+//         div.innerHTML = inputOne.value;
+//     } else { 
+//         div.innerHTML = 0;
+//     }
+// }
+
+
+// document.querySelector('.btn').onclick = () => {
+//     let inputOne = document.querySelector('.check').value; 
+//     // console.log(inputOne);
+//     let div = document.querySelector('.btn').style.backgroundColor = inputOne;
+
+// }
+
+
+// function f1 () {
+//     let a = document.querySelector('.checkOne');
+//     let b = document.querySelector('.checkTwo');
+
+//     let tempValue = a.value;
+
+//     a.value = b.value;
+//     b.value = tempValue;
+// }
+
+// document.querySelector('.btn').onclick = f1;
+
+
+// document.querySelector('.btn').onclick = () => {
+//     let input = document.querySelector('.checkOne').value;
+//     let div = document.querySelector('.div');
+
+//     div.innerHTML = input;
+// }
+
+
+// document.querySelector('.checkOne').oninput = () => {
+//     let input = document.querySelector('.checkOne').value;
+//     let div = document.querySelector('.div');
+//     div.innerHTML = input;
+// }
+
+// document.querySelector('.btn').onclick = () => {
+//     let textArea = document.querySelector('.area').value;
+//     let div = document.querySelector('.div');
+
+//     div.innerHTML = textArea;
+// }
+
+// document.querySelector('.btn').onclick = () => {
+//     let input = document.querySelector('.checkOne');
+//     let textArea = document.querySelector('.area');
+//     let div = document.querySelector('.div');
+
+//     textArea.value = input.value;
+//     input.textContent = input.value;
+//     div.innerHTML = textArea.value;
+//     input.value = '';
+// }
+
+
+
+// document.querySelector('.btn').onclick = () => {
+//     let sel = document.querySelector('.sel').value;
+//     let div = document.querySelector('.div');
+
+//     div.innerHTML = sel;
+// }
+
+
+
+// document.querySelector('.btn').onclick = () => {
+//     let inputText = document.querySelector('.checkOne').value;
+//     let inputPas = document.querySelector('.checkPasw').value;
+//     let div = document.querySelector('.div');
+//     let text = `${inputText} ${inputPas}`;
+
+//     div.innerHTML = text;
+// }
+
+// document.querySelector('.btn').onclick = (event) => {
+//     event.preventDefault();
+//     let inputText = document.querySelector('.checkOne').value;
+//     let inputPas = document.querySelector('.checkPasw').value;
+//     let div = document.querySelector('.div');
+//     let text = `${inputText} ${inputPas}`;
+
+//     div.innerHTML = text;
+// }
+
+
+//----------------------------------------------------------------
+
+// ЦИКЛЫ
+
+// Есть цикы 
+// for
+//while
+
+// for (старт; работает пока верно, счетчик)
+// for (let i = 0; i < 5; i++) {
+//     console.log(i);
+// }
+// // Пирбовляет по еденицы до 4 пятерку он не выводит
+
+// for (let i = 0; i < 5; i = i + 2) {
+//     console.log(i);
+// }
+// //Выведет 0 2 4 Прибовляет по двойке 
+
+// for (let i = 0; i < 5; i = i + 1) {
+//     if (i == 4) break; 
+//         console.log(i);
+
+// }
+
+// document.querySelector  Примениться только к первому элементу (диву)
+
+// let div = document.querySelectorAll('.one');
+//     console.log(div);
+// div.style.background = 'red';
+
+
+// for (let i = 0; i < div.length; i = i + 1) {
+//     div[i].style.background = 'red';
+//     //Окрасит все дивы
+//     div[i].onclick = two; 
+// }
+
+// function two () {
+//     console.log('work!!!');
+// }
+
+// let b = document.getElementsByClassName('one');
+// let c = document.getElementsByTagName('div');
+// console.log(b);
+// console.log(c);
+
+// for (let i = 0; i < b.length; i++) { 
+//     b[i].style.border = '4px solid black';
+// }
+
+// document.querySelector('button').onclick = () => {
+//     let r = document.querySelectorAll('input[type="radio"]');
+//     console.log(r);
+//     for (let i = 0; i < r.length; i++) {
+//         if (r[i].checked) {
+//             console.log(r[i].value);
+//         }
+//     }
+// }
+
+// let out = '';
+
+// for (let i = 0; i < 10; i++) {
+//     // out += i + ' '
+//     if (i == 6) continue 
+//         out += i + ' ';
+
+// }
+// document.querySelector('#out').innerHTML = out;
+
+// let out = '';
+// function f1 () {
+//     let div = document.querySelector('.div');
+
+//     for (let i = 1; i < 51; i++ ) {
+//         out += i + ' ';
+//     }
+//     div.innerHTML = out;
+// }
+
+// let button = document.querySelector('.btn').onclick = f1;
+
+// let out = '';
+// function f2 () {
+//     let div = document.querySelector('.div');
+
+//     for (let i = 2; i < 123; i = i + 2 ) {
+//         out += i + ' ';
+//     }
+//     div.innerHTML = out;
+
+// }
+
+// document.querySelector('.btn').onclick = f2;
+
+// let out = '';
+// function f3 () {
+//     let div = document.querySelector('.div');
+//     for (let i = 25; i > 6; i--) {
+//         out += i + ' ';
+//     }
+//     div.innerHTML = out;
+// }
+
+// document.querySelector('.btn').onclick = f3;
+
+// let out = '';
+// function f4 () {
+//     let div = document.querySelector('.div');
+//     for (let i = 77; i > 34; i = i - 3) {
+//         out += i + '_';
+//     }
+//     div.innerHTML = out;
+// }
+// document.querySelector('.btn').onclick = f4;
+
+// let out = '';
+// function f5 () {
+//     let div = document.querySelector('.div');
+//     for (let i = 1; i < 18; i++ ) {
+//         // out += i + '_';
+//         if (i % 2) {
+//             out += i + '_*';
+//         } else {
+//             out += i + '_**';
+//         }
+//     }
+//     div.innerHTML = out;
+// }
+
+// document.querySelector('.btn').onclick = f5;
+
+
+
+
+
+
+// function f6 () {
+//     let input = document.querySelector('.inp');
+//     document.querySelector('.div').innerHTML = '';
+//     for (let i = 1; i < input.value; i++ ) {
+//         document.querySelector('.div').innerHTML += '******' + '<br>';
+//         if (i > 100)  {
+//             break;
+//         }
+//     }
+// }
+
+
+// document.querySelector('.btn').onclick = f6;
+
+
+
+
+// function f6 () {
+//     document.querySelector('.div').innerHTML = '';  
+//     for (let i = 0; i < 6; i = i + 1) {
+
+//         document.querySelector('.div').innerHTML += '***********' + '<br>';
+//     }
+// }
+
+// document.querySelector('.btn').onclick = f6;
+
+
+
+// let input = document.querySelector('.inp');
+// let btn = document.querySelector('.btn');
+// btn.onclick = () => {
+//   let b = input.value;
+//   while (b >= 0) {
+//     console.log(b);
+//     b--;
+//   }
+// }
+
+// document.querySelector('.div').innerHTML = '';
+
+
+// function f8 () {
+//     let inputFirst = document.querySelector('.inputOne').value;
+//     let inputSecond = document.querySelector('.inputTwo').value;
+//     let div = document.querySelector('.div');
+
+//     let out = '';
+//     while (inputFirst <= inputSecond)  {
+//         out += inputFirst + ' ';
+//         inputFirst++;
+//         div.textContent = out;
+//     }
+// }
+
+// document.querySelector('.btn').onclick = f8;
+
+// function f9 () {
+//     let div = document.querySelector('.div');
+//     let out = '';
+//     for (let i = 1950; i <= 2000; i++ ) {
+//         if (i % 2 === 0 ) {
+//             out += i + ' ';
+//             console.log('Все четные');
+//         } 
+//         console.log(i);
+//     }
+
+//     div.innerHTML = out;
+
+
+// }
+
+// document.querySelector('.btn').onclick = f9;
+
+// Правельный вариант
+// function f9 () {
+//     let div = document.querySelector('.div');
+//     let out = '';
+//     for (let i = 1950; i <= 2000; i = i + 2) {
+//         // if (i % 2 === 0 ) {
+//         //     out += i + ' ';
+//         //     console.log('Все четные');
+//         // } 
+//         console.log(i);
+//     }
+
+//     div.innerHTML = out;
+
+
+// }
+
+// document.querySelector('.btn').onclick = f9;
+
+// let div = document.querySelector('.div');
+
+// function f8 () {
+//     for (let i = 0;i < div.length; i++) {
+//         console.log(div[i]);
+//     }
+// }
+
+// document.querySelector('.btn').onclick = f8;
+
+
+// for (let i = 0; i < div.length; i = i + 1) {
+//         div[i].style.background = 'red';
+
+//         div[i].onclick = two; 
+//     }
+
+/// ОТРАБОТКА ЦИКЛА (ПЕРВЫЙ УРОК);
+
+// let out = '';
+// function f1 () {
+//     let div = document.querySelector('.div');
+//     for (let i = 1; i <= 50; i++) {
+//         out += i + ' ';
+//         div.innerHTML = out;
+//     }
+// }
+// document.querySelector('.btn').onclick = f1;
+
+// let out = '';
+// function f2 () {
+//     let div = document.querySelector('.div');
+//     for (let i = 0; i <= 122; i = i + 2) {
+//         out += i + ' ';
+//         div.innerHTML = out;
+//     }
+// } 
+// document.querySelector('.btn').onclick = f2;
+
+// function f3() {
+//     let out = ''
+//     let div = document.querySelector('.div'); 
+//     for (let i = 25; i >= 0; i--) {
+//         out += i + ' ';
+//         if (i == 6)  {
+//             break;
+//         }
+//     div.innerHTML = out;
+//     }
+// }
+// document.querySelector('.btn').onclick = f3;
+
+// function f4 () {
+//     let out = '';
+//     let div = document.querySelector('div');
+//     for (let i = 77; i >= 0; i = i - 3) {
+//         if (i == 32) {
+//             break;
+//         }
+//         out += i + '_';
+//         div.innerHTML = out;
+
+//     }
+// }
+// document.querySelector('.btn').onclick = f4;
+
+// function f5 () {
+//     let out = ''; 
+//     let div = document.querySelector('.div');
+//     for (let i = 1; i <= 17; i++) {
+//         out += i + '_';
+//         if (i % 2) {
+//             out += '*';
+//         } else {
+//             out += '**';   
+//         }
+//     }
+//     div.innerHTML = out;
+// }
+// document.querySelector('.btn').onclick = f5;
+
+// let p = 0;
+// let div = document.querySelector('.div');
+// let out = '';
+// function f6() {
+//     while (p < 3) {
+//         let p1 = 0;
+//         while (p1 < 6) {
+//             out += '*';
+//             p1++;
+//         }
+//         out += '<br>';
+//         p++;
+//     }
+//     div.innerHTML = out;
+// }
+
+// document.querySelector('.btn').onclick = f6;
+
+
+
+// function f7() {
+//     let out = '';
+//     let div = document.querySelector('.div');
+//     let input = +document.querySelector('.inputOne').value;
+
+//     for (let i = input; i >= 0; i--) {
+//         out += i + ' ';
+//         div.innerHTML = out;
+//     }
+// }
+// document.querySelector('.btn').onclick = f7;
+
+
+// function f8() {
+//     let inputFirst = document.querySelector('.inputOne').value;
+//     let inputSecond = document.querySelector('.inputTwo').value;
+//     let div = document.querySelector('.div');
+
+//     let out = '';
+//     while (inputFirst <= inputSecond) {
+//         out += inputFirst +  ' ';
+//         inputFirst++;
+//         div.textContent = out;
+
+//     }
+// }
+
+// document.querySelector('.btn').onclick = f8;
+
+
+// function f9() {
+//     let inputFirst = document.querySelector('.inputOne').value;
+//     let inputSecond = document.querySelector('.inputTwo').value;
+//     let div = document.querySelector('.div');
+//     let out = '';
+//     if (inputFirst >= inputSecond) {
+//         let temp = inputFirst;
+//         inputFirst = inputSecond;
+//         inputSecond = temp;
+//     }
+
+//     while (inputFirst <= inputSecond) {
+//         out += inputFirst + ' ';
+//         inputFirst++;
+//         div.innerHTML = out;
+
+//     }
+
+// }
+
+// document.querySelector('.btn').onclick = f9;
+
+// function f9() {
+//     let divOut = document.querySelector('.div');
+//     let div = document.getElementsByTagName('div');
+//     for (let i = 0; i < div.length; i = i + 1 ) {
+//         div[i].style.background = 'orange';
+
+
+//     }
+// }
+
+// document.querySelector('.btn').onclick = f9;
+
+
+// ВЛОЖЕННЫЕ ЦИКЛЫ 
+// let div = document.querySelector('.div');
+// for (let i = 0; i < 3; i++) {
+//     for (let k = 0; k < 3; k++) {
+//         div.innerHTML += '*';
+//     }
+//     div.innerHTML += '_';
+// }
+
+// let div = document.querySelector('.div');
+// for (let i = 1; i <= 3; i++) {
+//     for (let k = 0; k < 1; k++) {
+//         div.innerHTML += i + '<br>';
+//     }
+//     div.innerHTML += '*_*_*_' + '<br>';
+// }
+
+
+// let div = document.querySelector('.div');
+// for (let i = 0; i < 4; i++) {
+//     for (let k = 0; k < 3; k++) {
+//         div.innerHTML += '*_';
+//     }
+//     div.innerHTML += '<br>';
+
+// }
+
+
+// let div = document.querySelector('.div');
+// for (let i = 0; i < 3; i++) {
+//     for (let k = 0; k < 6; k++) {
+//         if (k % 2 == 0) { 
+//             div.innerHTML += '1';
+//         } else {
+//             div.innerHTML += '0';
+
+//         }
+//     }
+//     div.innerHTML += ' <br>';
+// }
+
+
+// let q = 1;
+// let out = '';
+// let div = document.querySelector('.div');
+
+// for (let i = 0; i < 8; i++) {
+//     for (let k = 0; k < 8; k++) {
+//         if (k < q) {
+//             out += '*';
+//         }
+//     }
+//     q++;
+//     out += '<br>';
+//     div.innerHTML = out;
+
+// }
+
+
+// let q = 5;
+// let out = '';
+// let div = document.querySelector('.div');
+
+// for (let i = 0; i < 5; i++) {
+//     for (let k = 0; k < 5; k++) {
+//         if (k < q) {    
+//             out += '* '
+//         }
+//     }
+//     q--;
+//     out += '<br>';
+//     div.innerHTML = out;
+// }
+
+// let q = 1;
+// let out = '';
+// let div = document.querySelector('.div');
+
+// for (let i = 0; i < 6; i++) {
+//     for (let k = 1; k <= 5; k++) {
+//         if (k < q) {
+//             out += k + ' ';
+//         }
+//     }
+//     q++;
+//     out += '<br>';
+//     div.innerHTML = out;
+// }
+
+
+
+// let div = document.querySelector('.div');
+// let out = '';
+
+// for (let i = 0; i < 3; i++) {
+//     for (let k = 0; k < 5; k++) {
+//         out += '*';
+//     }
+//     out += '<br>';
+//     div.innerHTML = out;
+// }
+
+
+// let div = document.querySelector('.div');
+// let q = 5;
+// let out = '';
+
+// for (let i = 0; i < 3; i++) {
+//     for (let k = 0; k < 5; k++) {
+//         if (k < q) {
+//             out += '*';
+//         }
+//     }
+//     q--;
+//     out += '<br>';
+//     div.innerHTML = out;
+// }
+
+// Плохо понял
+
+// let div = document.querySelector('.div');
+// let q = 6;
+// let q2 = 10;
+// let out = '';
+
+// for (let i = 0; i < 3; i++) {
+//     for (let k = 0; k < 12; k++) {
+//         if (k < q || k > q2) {
+//             out += '_ ';
+//         } else {
+//             out += '*';
+
+//         }
+//     }
+//     q--;
+//     q2--;
+//     out += '<br>';
+//     div.innerHTML = out;
+// }
+
+
+
+// let div = document.querySelector('.div');
+// let out = '';
+// for (let i = 0; i < 3; i++) {
+//     for (let k = 0; k <= i; k++ ) {
+//         div.innerHTML += '* ';
+//     }
+//     div.innerHTML += '<br>';
+// }
+// for (let i = 0; i < 2; i++) {
+//     for (let k = 2; k > i; k-- ) {
+//         div.innerHTML += '* ';
+//     }
+//     div.innerHTML += '<br>';
+// }
+
+// let div = document.querySelector('.div');
+// for (let i = 1; i < 10; i++) {
+//     for (let k = 0; k <= 10; k++) {
+//         div.innerHTML += `${i}*${k}=${i * k}<br>`;
+//     }
+//     div.innerHTML += '<hr>';
+// }
+
+// let div = document.querySelector('.div');
+// function f1 () {
+// let a1 = 1;
+//     div.innerHTML = a1;
+// }
+
+// document.querySelector('.btn').onclick = f1;
+
+// let a2 = 89;
+// function f2 () {
+//     return a2;
+// }
+
+// document.querySelector('.btn').onclick = () => {
+//     document.querySelector('.div').innerHTML = f2 ();
+// }
+
+
+// let a2 = 89;
+// function f3 (a , b ) {
+//     return a + b;
+// }
+
+// document.querySelector('.btnOne').onclick = () => {
+//     document.querySelector('.div').innerHTML = f3 (4, 5);
+// }
+
+// document.querySelector('.btnTwo').onclick = () => {
+//     document.querySelector('.div').innerHTML = f3 (8, 10);
+// }
+
+
+// function f4 (age) {
+//     return 2021 - age;
+// }
+// document.querySelector('.btn').onclick = () => {
+//     document.querySelector('.div').innerHTML = f4(1993);
+// }
+
+// function f5(name) {
+//     return 'Hello ' +  name;
+// }
+
+// document.querySelector('.btn').onclick = () => {
+//     document.querySelector('.div').innerHTML = f5('сергей');
+// }
+
+// function f6 (a, b) {
+//     return  (Math.random() * (a - b) + b);
+// }
+// document.querySelector('.btn').onclick = () => {
+//     document.querySelector('.div').textContent = f6(1, 7);
+// }
+
+// function f7 (str) {
+//     return str.trim();
+// }
+// document.querySelector('.btn').onclick = () => {
+//       document.querySelector('.div').textContent = f7(` HELLO  `);
+// }
+
+// function f8 (a) {
+//     if (a % 2 === 0) {
+//         // document.querySelector('.div').textContent = 'true';
+//         console.log('true');
+//     } else {
+//         console.log('false');
+//     }
+// }
+// document.querySelector('.btn').onclick = () => {
+//     document.querySelector('.div').textContent = f8(8);
+// }
+
+
+// function f8(a, b) {
+//     if (a > b) {
+//         console.log('Болше A');
+//         return a;
+//     } else if (b > a) {
+//         console.log('Болше B');
+//         return b;
+//     } else {
+//         console.log('Равное');
+//         return a, b;
+//     }
+// }
+// document.querySelector('.btn').onclick = () => {
+//     document.querySelector('.div').textContent = f8(7, 7);
+// }
+
+
+
+// for while-----------------------------------------------------
+
+// let k = 0;
+// for (let i = 0; i < 6; i++) {
+//     console.log(i);
+// } while (k < 5) {
+//     k++
+//     console.log('k ' + k);
+// }
+
+
+//найти числа от 0 до 10
+// let sum = 0;
+// let p = 0;
+// while (p <= 4) {
+//     sum = sum + p;
+//     p++;
+// }
+// console.log('sum = ' + sum);
+
+// let out = document.querySelector('.div');
+// p = 0;
+// let outStr = '';
+// let flag = 3;
+
+// while (p < 4) {
+//     let p1 = 0;
+//     while (p1 < 4) {
+//         if (p1 < flag) {
+//             outStr += '&nbsp';
+//         } else {
+//             outStr += '*';
+//         }
+//         p1++;
+//     }
+//     flag--;
+//     outStr += '<br>';
+//     p++;
+// }
+
+// out.innerHTML = outStr;
+
+// let number = 0;
+// function f1 () {
+//     while (number < 50) {
+//         number++
+//         document.querySelector('.div').innerHTML += `${number} `;
+//     }
+// }
+// document.querySelector('.btn').onclick = f1;
+
+
+// let number = 0;
+// function f2() {
+//     while (number < 50) {
+//         number++;
+//         if (number % 2 == 0) {
+//             document.querySelector('.div').innerHTML += `${number} `;
+//         }
+//         console.log(number);
+//     }
+// }
+// document.querySelector('.btn').onclick = f2;
+
+
+
+// let num = 26;
+// function f3() {
+//     while (num > 7) {
+//         num--;
+//        console.log(num);
+//     }
+// }
+
+// document.querySelector('.btn').onclick = f3;
+
+
+// let out = '';
+// let num = 0;
+// let div = document.querySelector('.div');
+// function f5() {
+//     while (num < 17) {
+//         num++;
+//         out = num + '_' + '*';
+//         div.innerHTML += out;
+//     }
+// }
+// document.querySelector('.btn').onclick = f5;
+
+// let num = 0;
+// let out = '';
+// let div = document.querySelector('.div');
+// function f6() {
+//     while (num < 3) {
+//         let num1 = 0;
+//         while (num1 < 6) {
+//             num1++;
+//             div.innerHTML = out;
+//             out += '*';
+
+//         }
+//         out += '<br>';
+//         num++;
+//         div.innerHTML = out;
+//     }
+// }
+
+// document.querySelector('.btn').onclick = f6;
+
+
+//НЕправильно
+// let div = document.querySelector('.div');
+// let out = '';
+// function f7 () {
+//     let num = 1;
+//     let inputValue = +document.querySelector('.input').value;
+//     while (inputValue > num) {
+//         inputValue--;
+//         div.innerHTML += inputValue + ' ';
+//         console.log(num);
+//     }
+// }
+
+// document.querySelector('.btn').onclick = f7;
+
+
+
+// function f8(a, b) { 
+// let i = a;
+//     while (i <= b) {
+//         document.querySelector('.div').innerHTML += `${i} `;
+//         i++;
+//     }
+// }
+
+// document.querySelector('.btn').onclick = () => f8(3, 23);
+
+
+// function f9(a, b) {
+//     let i = b;
+//     while (i >= a) {
+//         document.querySelector('.div').innerHTML += `${i} `;
+//         i--;    
+//     }
+// }
+
+// document.querySelector('.btn').onclick = () => f9(3, 23);
+
+
+// function f10(a, b, c) {
+//     let i = b;
+//     while (i >= a) {
+//         document.querySelector('.div').innerHTML += `${i} `;
+//         i -= c;
+//     }
+// }
+
+// document.querySelector('.btn').onclick = () => f10(3, 45, 4);
+
+
+
+// function f11() {
+//     let sum = 0;
+//     let i = 0;
+
+//     while (i <= 20) {
+//         i++;
+//         sum += i;
+//         document.querySelector('.div').innerHTML += `${sum} `; 
+//     }
+// }
+// document.querySelector('.btn').onclick = () => f11();
+
+
+// function f12(a, b) {
+//     if (b > a) {
+//         let sum = a;
+
+//         while (a <= b) {
+//             a++;
+//             sum += a
+//             document.querySelector('.div').innerHTML += `${sum} `;
+//         } 
+//     } else {
+//         document.querySelector('.div').innerHTML = `false`;
+//     }
+// }
+// document.querySelector('.btn').onclick = () => f12(2, 9);
+
+
+
+
+// function f13(a, b) {
+//     if (b > a) {
+//         let sum = a;
+//         while (b >= a) {
+//             a++;
+//             sum *= a;
+//             document.querySelector('.div').innerHTML += `${sum} `;
+//         }
+//     } else {
+//         document.querySelector('.div').innerHTML = `false `;
+//     }
+// }
+
+// document.querySelector('.btn').onclick = () => f13(2, 9);
+
+
+// function f14() {
+//     let money = 333;
+//     let days = 1;
+//     while (money <= 1000000) {
+//         money *= 2;
+//         days++;
+//         if (money >= 1000000) {     
+//             document.querySelector('.div').innerHTML = `На ${days} день у тебя будет больше или равно 1000000`;
+//             break;
+//         }
+//     } 
+// }
+
+// document.querySelector('.btn').onclick = () => f14();
+
+
+
+
+// function f15(a, b) {
+//     while (a <= b) {
+//         if (a % 2 === 0) {
+//             document.querySelector('.div').innerHTML += `0 `;
+//         } else {
+//             document.querySelector('.div').innerHTML += `${a} `;
+//         }
+//         a++;
+//     }
+// }
+// document.querySelector('.btn').onclick = () => f15(2, 12);
+
+
+
+// function f16() {
+//     let i = 0;
+//     while (i < 6) {
+//         // let k = 0;
+//         if (i % 2 == 0) {
+//             document.querySelector('.div').innerHTML += '*';
+//         }
+//         // while(k < 2) {
+//         //     k++
+//         //     document.querySelector('.div').innerHTML += '*';
+//         // }
+
+//         i++
+//         document.querySelector('.div').innerHTML += '*'+'<br>';
+//     }
+// }
+
+// document.querySelector('.btn').onclick = () => f16();
+
+
+
+// function f17() {
+// let i = 10;
+// let k = 1;
+
+//     while (i > 0) {
+//         document.querySelector('.div').innerHTML += `${i} `;
+//         document.querySelector('.div').innerHTML += `${k} `;
+//         i--;
+//         k++;
+//     }
+// }
+// document.querySelector('.btn').onclick = f17;
+
+
+
+
+// function f18() {
+//     let i = 0;
+//     do {
+//         document.querySelector('.div').innerHTML += `${i} `;
+//         i++;
+//     } while (i <= 100);
+// }
+// document.querySelector('.btn').onclick = f18;
+
+
+// function f19() {
+//     let i = 1;
+//     let quantity = 5;
+
+//     do {
+//         quantity = quantity + (quantity / 100 * 30);
+//         if (quantity > 132) {
+//             document.querySelector('.div').innerHTML = ` Через ${i} дней михалыча побьют все`;
+//             break;
+//         }
+//         i++;
+//     }
+//     while (i < 30);
+// }
+
+// document.querySelector('.btn').onclick = f19;
+
+// РАБОТА С DOM----------------------------------------------------
+
+
+// let div = document.querySelector('.div');
+// function f1() {
+//     div.style.width = '150px';
+//     div.style.height = '20px';
+
+// }
+
+// document.querySelector('.btn').onclick = f1;
+
+// let div = document.querySelector('.div');
+// function f2() {
+//     div.classList.add('newClass');
+
+// }
+
+// document.querySelector('.btn').onclick = f2;
+
+
+// function f3() {
+//     div.classList.remove('newClass');
+// }
+
+// document.querySelector('.btnTwo').onclick = f3;
+
+
+// let div = document.querySelector('.div');
+// function f4() { 
+//     this.classList.toggle('div')
+// }
+
+// document.querySelector('.btn').onclick = f4;
+
+
+// let div = document.querySelector('.div');
+// function f2() {
+//     div.classList.toggle('css');
+// }
+
+// document.querySelector('.btn').onclick = f2;
+
+
+
+
+
+
+
+//////НАЧИНАЮ С НАЧАЛА 
+let div = document.querySelector('.div');
+let out = '';
+for (let i = 0; i < 3; i++) {
+  for (let k = 0; k < 3; k++) {
+    out += '*';
+    div.innerHTML = out;
+
+  }
+  out += '<br>';
+  div.innerHTML = out;
+}
+
+
+
+
 
 
 
